@@ -1,0 +1,165 @@
+.bg-1 {
+  min-height: 919px;
+  background: url("../img/bg1.jpg") top center no-repeat;
+  background-size: auto;
+  @include media-breakpoint-down(lg) {
+    min-height: auto;
+  }
+  @include media-breakpoint-down(md) {
+    background-size: cover;
+  }
+  @include media-breakpoint-down(sm) {
+    background-size: auto 700px;
+    background-position: -330px -50px;
+
+  }
+}
+
+.bg-2 {
+  min-height: 863px;
+  background: url("../img/bg2.jpg") top center no-repeat;
+  background-size: auto;
+  @include media-breakpoint-down(lg) {
+    min-height: auto;
+    background-position: center bottom;
+  }
+  @include media-breakpoint-down(sm) {
+    background-size: cover;
+  }
+}
+
+.bg-3 {
+  min-height: 890px;
+  background: url("../img/bg3.jpg") top center no-repeat;
+  background-size: auto;
+  @include media-breakpoint-down(lg) {
+    min-height: auto;
+    background-position: center top;
+
+  }
+  @include media-breakpoint-down(sm) {
+    background-size: cover;
+  }
+}
+
+.bg-4 {
+  min-height: 889px;
+  background: url("../img/bg4.jpg") top center no-repeat;
+  background-size: auto;
+  @include media-breakpoint-down(lg) {
+    min-height: auto;
+  }
+  @include media-breakpoint-down(sm) {
+    background-size: cover;
+  }
+}
+
+.bg-5 {
+  min-height: 470px;
+  background: url("../img/bg5.jpg") top center no-repeat;
+  background-size: auto;
+  @include media-breakpoint-down(lg) {
+    min-height: auto;
+  }
+  @include media-breakpoint-down(sm) {
+    background-size: cover;
+    background-position: 45% top;
+  }
+}
+
+.bg-6 {
+  min-height: 1258px;
+  background: url("../img/bg6.jpg") top center no-repeat;
+  background-size: auto;
+  @include media-breakpoint-down(lg) {
+    min-height: auto;
+  }
+  @include media-breakpoint-down(sm) {
+    background-size: cover;
+  }
+}
+
+.bg-7 {
+  min-height: 888px;
+  background: url("../img/bg7.jpg") top center no-repeat;
+  background-size: auto;
+  @include media-breakpoint-down(lg) {
+    min-height: auto;
+    background-size: cover;
+
+  }
+  @include media-breakpoint-down(md) {
+    background-size: cover;
+  }
+}
+
+.bg-8 {
+  min-height: 1331px;
+  background: url("../img/bg8.jpg") top center no-repeat;
+  background-size: auto;
+  @include media-breakpoint-down(lg) {
+    min-height: auto;
+  }
+  @include media-breakpoint-down(sm) {
+    background-size: cover;
+  }
+}
+
+.bg-9 {
+  min-height: 555px;
+  background: url("../img/bg9.jpg") top center no-repeat;
+  background-size: auto;
+  @include media-breakpoint-down(lg) {
+    min-height: auto;
+  }
+  @include media-breakpoint-down(sm) {
+    background-size: cover;
+  }
+}
+
+.bg-10 {
+  min-height: 1021px;
+  border-bottom: 1px solid red;
+  background: url("../img/bg10.jpg") top center no-repeat;
+  background-size: auto;
+  @include media-breakpoint-down(lg) {
+    min-height: auto;
+  }
+  @include media-breakpoint-down(sm) {
+    background-size: cover;
+  }
+}
+
+.bg-11 {
+  min-height: 839px;
+  background: url("../img/bg11.jpg") top center no-repeat;
+  background-size: auto;
+  @include media-breakpoint-down(lg) {
+    min-height: auto;
+  }
+  @include media-breakpoint-down(sm) {
+    background-size: cover;
+  }
+}
+.bg-12 {
+  min-height: 759px;
+  background: url("../img/bg12.jpg") top center no-repeat;
+  background-size: auto;
+  @include media-breakpoint-down(lg) {
+    min-height: auto;
+  }
+  @include media-breakpoint-down(sm) {
+    background-size: cover;
+  }
+}
+.bg-13 {
+  min-height: 553px;
+  background: url("../img/bg13.jpg") top center no-repeat;
+  background-size: auto;
+  @include media-breakpoint-down(lg) {
+    min-height: auto;
+  }
+  @include media-breakpoint-down(sm) {
+    background-size: cover;
+  }
+}

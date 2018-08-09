@@ -1,0 +1,82 @@
+
+.slider-wrapper {
+  display: block;
+  .item {
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  #owl-0 {
+    .owl-prev {
+      left: -30px;
+      @include media-breakpoint-down(sm) {
+        left: -20px;
+      }
+    }
+    .owl-next {
+      right: -30px;
+      @include media-breakpoint-down(sm) {
+        right: -20px;
+      }
+    }
+  }
+
+  #owl-0 {
+    .owl-next, .owl-prev {
+      position: absolute;
+      top: 200px;
+      display: inline-block;
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      background-color: #ffffff;
+      box-shadow: inset 0 0 0 2px #87a737;
+      outline: none;
+      font-size: 0;
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='15' viewBox='0 0 10 15'%3E%3Cmetadata%3E%3C?xpacket begin=' ' id='W5M0MpCehiHzreSzNTczkc9d'?%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C?xpacket end='w'?%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 { fill: %23f19123; fill-rule: evenodd; } %3C/style%3E%3C/defs%3E%3Cpath id='Прямоугольник_904_копия_8' data-name='Прямоугольник 904 копия 8' class='cls-1' d='M1023.02,8451.25l1.42-1.25,8.56,7.5-1.43,1.25h0l-7.13,6.26-1.42-1.25,7.12-6.26Z' transform='translate(-1023 -8450)'/%3E%3C/svg%3E");
+      background-size: 10px 15px;
+      background-repeat: no-repeat;
+      background-position: center;
+      transition: all 0.2s ease;
+      @include media-breakpoint-down(sm) {
+        width: 45px;
+        height: 45px;
+      }
+      &:hover {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='15' viewBox='0 0 10 15'%3E%3Cmetadata%3E%3C?xpacket begin=' ' id='W5M0MpCehiHzreSzNTczkc9d'?%3E%3Cx:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39 '%3E%3Crdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Crdf:Description rdf:about=''/%3E%3C/rdf:RDF%3E%3C/x:xmpmeta%3E%3C?xpacket end='w'?%3E%3C/metadata%3E%3Cdefs%3E%3Cstyle%3E .cls-1 { fill: %23ffffff; fill-rule: evenodd; } %3C/style%3E%3C/defs%3E%3Cpath id='Прямоугольник_904_копия_8' data-name='Прямоугольник 904 копия 8' class='cls-1' d='M1023.02,8451.25l1.42-1.25,8.56,7.5-1.43,1.25h0l-7.13,6.26-1.42-1.25,7.12-6.26Z' transform='translate(-1023 -8450)'/%3E%3C/svg%3E"),
+        linear-gradient(to top, #da801a 0%, #fea745 100%);
+        background-size: 10px 15px, 100%;
+        box-shadow: inset 0 0 8px 1px rgba(255, 255, 255, 0.6);
+        border: none;
+      }
+    }
+    .owl-prev {
+      transform: rotate(180deg);
+    }
+  }
+  #owl-0 {
+    .owl-dots {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+      .owl-dot {
+        display: block;
+        width: 12px;
+        height: 12px;
+        outline: none;
+        margin: 0 4px 0;
+        border-radius: 50%;
+        background-color: #fff;
+        transition: all 0.2s ease;
+        opacity: 0.6;
+        &.active {
+          opacity: 1;
+        }
+      }
+      @include media-breakpoint-down(sm) {
+        margin-top: 20px;
+      }
+    }
+  }
+}
