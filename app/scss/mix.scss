@@ -2,10 +2,24 @@
 @import "variables";
 @import "scaffolding";
 @import "bg";
+@import "navbar";
 @import "modal";
 @import "input";
 @import "button";
+@import "social";
 @import "ch-wrapper";
+@import "fs";
+@import "about";
+@import "lands";
+@import "scool";
+@import "busines";
+@import "benefit";
+@import "trainer";
+@import "extra";
+@import "format";
+@import "client";
+@import "service";
+@import "footer";
 //@import "slider";
 
 body {
@@ -33,6 +47,7 @@ body {
 
 .container-fluid {
   max-width: 1200px;
+  position: relative;
 }
 
 .flex {

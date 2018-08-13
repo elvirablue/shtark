@@ -1,0 +1,54 @@
+.fs {
+  padding-top: 350px;
+  #parallax {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  .t1 {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: $color-text-bg-yellow;
+  }
+  .t2 {
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    color: $color-text-light;
+  }
+  .button {
+    width: 290px;
+  }
+  @include media-breakpoint-down(md) {
+    padding-top: 370px;
+
+    #parallax {
+      display: none;
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    padding-top: 40vw;
+    h1 {
+      padding-top: 20px;
+    }
+    .t1 {
+      font-size: 16px;
+    }
+  }
+  @include media-breakpoint-down(xs) {
+    padding-top: 30vw;
+    .t1 {
+      font-size: 14px;
+    }
+    .t2 {
+      font-size: 12px;
+    }
+  }
+}

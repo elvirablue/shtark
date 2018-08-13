@@ -1,0 +1,86 @@
+.trainer {
+  padding-top: 70px;
+  position: relative;
+  .block-gray {
+    display: block;
+    width: 100%;
+    padding: 50px 70px 50px;
+    border-radius: 25px;
+    background-color: #f7f7f7;
+    .title {
+      max-width: 600px;
+      font-size: 34px;
+      color: #212223;
+      font-weight: 700;
+      text-align: left;
+      padding-bottom: 15px;
+    }
+    .text {
+      max-width: 550px;
+      padding-right: 120px;
+    }
+    .button {
+      width: 250px;
+      margin-top: 25px;
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+    .block-gray {
+      padding: 50px 30px 50px;
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    padding-top: 30px;
+    .block-gray {
+      padding: 50px 20px;
+      .title {
+        font-size: 28px;
+        max-width: 55vw;
+      }
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    .block-gray {
+      .title {
+        font-size: 24px;
+        max-width: 100%;
+      }
+      .text {
+        padding-right: 0;
+        font-size: 14px;
+      }
+      .button {
+        margin-top: 270px;
+      }
+    }
+
+  }
+
+  @include media-breakpoint-down(xs) {
+    .block-gray {
+      .title {
+        font-size: 20px;
+      }
+    }
+  }
+}
+.trainer-decor {
+  position: absolute;
+  right: 60px;
+  top: 50px;
+  @include media-breakpoint-down(lg) {
+    width: 50vw;
+    right: 20px;
+    top: auto;
+    bottom: -5vw;
+  }
+  @include media-breakpoint-down(sm) {
+    width: 350px;
+    right: 50%;
+    bottom: 80px;
+    margin-right: -150px;
+  }
+}

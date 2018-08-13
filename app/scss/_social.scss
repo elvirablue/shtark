@@ -1,0 +1,29 @@
+.social {
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  transition: 0.2s ease all;
+  margin: 20px 10px 20px;
+  &.inst {
+    border: 2px solid #3F729B;
+    background-image: url("../img/ico/i-inst.svg");
+    background-size: 25px auto;
+    &:hover {
+      background-color: #3F729B;
+      background-image: url("../img/ico/i-inst-hover.svg");
+    }
+  }
+  &.vk {
+    border: 2px solid #587EA3;
+    background-image: url("../img/ico/i-vk.svg");
+    background-size: 25px auto;
+    &:hover {
+      background-color: #587EA3;
+      background-image: url("../img/ico/i-vk-hover.svg");
+    }
+  }
+}

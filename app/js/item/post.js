@@ -19,16 +19,8 @@ $(document).ready(function() {
 			//yaCounter39173625.reachGoal('FormContact');
 //*************************************************************************************************
 
-			$('#exampleModal').arcticmodal({
-				beforeOpen: function(data, el) {
-					if ($('.modal').hasClass('show')) {
-						$('.modal').addClass('zoomOut');						
-                  		$('.modal_wrapper').addClass('fadeOut');                  		
-                        $('.modal').removeClass('show zoomIn');      
-                        $('.modal_wrapper').removeClass('show fadeIn');                  		
-                 	}
-				}				
-    		});
+      $('#Modal').modal('hide');
+      $('#ModalThank').modal('show');
 //
 		} else { return false; };
 
@@ -42,14 +34,14 @@ function validateForm($form) {
 	var valid = true;
 	$form.find(".required").each(function(index, element) {
 		if ($(element).val() == "") {
-			$(element).addClass("modal_error");
+			$(element).addClass("input-error");
 			setTimeout(function(){
-                        $(element).removeClass('modal_error');
+                        $(element).removeClass('input-error');
                   }, 1500);
 			valid = false;
 		}
 		else {
-			$(element).removeClass("modal_error");
+			$(element).removeClass("input-error");
 		}
 	});
 	return valid;

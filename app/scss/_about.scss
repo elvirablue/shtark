@@ -1,0 +1,68 @@
+.about {
+  padding: 70px 50px;
+  background: url("../img/bg-1.jpg") 95% 50px no-repeat;
+  background-size: auto;
+  .text {
+    max-width: 500px;
+    padding: 30px 20px 0;
+    p {
+      padding-bottom: 20px;
+    }
+  }
+  .buttons {
+    padding-left: 20px;
+    .button:first-child {
+      min-width: 215px;
+    }
+    .button:last-child {
+      min-width: 230px;
+      margin-left: 420px;
+    }
+  }
+  @include media-breakpoint-down(lg) {
+    background-size: 500px auto;
+    .buttons {
+      .button:last-child {
+        margin-left: 30vw;
+      }
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    background-size: 400px auto;
+    background-position: 95% 100px;
+    .text {
+      max-width: 400px;
+    }
+    .buttons {
+      .button:last-child {
+        margin-left: 20vw;
+      }
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    padding: 50px 20px;
+    background-position: center 150px;
+    .text {
+      max-width: 100%;
+      padding-top: 260px;
+      p {font-size: 14px;}
+    }
+    .buttons {
+      padding-left: 0;
+      .button {
+        width: 280px;
+        display: block;
+        margin: 10px auto !important;
+      }
+    }
+  }
+
+  @include media-breakpoint-down(xs) {
+    padding: 50px 0;
+    .text {
+      padding: 260px 0 0;
+    }
+  }
+}

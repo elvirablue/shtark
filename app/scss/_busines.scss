@@ -1,0 +1,121 @@
+.busines {
+  padding: 20px 150px 30px 110px;
+
+  h2 {
+    padding-top: 100px;
+    padding-left: 30px;
+    .subtitle {
+      padding-top: 10px;
+    }
+  }
+
+  .item {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 40px;
+    p {
+      padding-left: 12px;
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+    padding: 20px 100px 30px 80px;
+  }
+
+  @include media-breakpoint-down(md) {
+    padding: 20px 0 30px;
+    h2 {
+      padding-left: 0;
+    }
+    .row-list {
+      padding-right: 40px;
+    }
+    .item {
+      img {max-width: 40px}
+      p {font-size: 14px}
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    padding: 20px;
+    img.men {
+      display: block;
+      margin: 0 auto;
+      max-width: 50vw;
+      margin-top: 20px;
+    }
+    .row-list {
+      padding-right: 0;
+    }
+
+  }
+
+  @include media-breakpoint-down(xs) {
+    padding: 40px 0 20px;
+    h2 {
+      padding-top: 0;
+    }
+    .item {
+      padding-top: 30px;
+      flex-flow: column nowrap;
+      text-align: center;
+      p {
+        padding-left: 0;
+      }
+    }
+  }
+}
+.busines-form {
+  padding: 0 150px 51px;
+  p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+    padding-bottom: 20px;
+  }
+  .button {
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  @include media-breakpoint-down(lg) {
+    padding: 0 80px 51px;
+  }
+
+  @include media-breakpoint-down(md) {
+    padding: 0 20px 57px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px 0 30px;
+    .row.center {
+      margin-right: -15px;
+      margin-left: -15px;
+    }
+    .user-input {
+      margin-bottom: 15px;
+    }
+    .button {
+      margin-top: 0;
+    }
+  }
+
+  @include media-breakpoint-down(xs) {
+
+  }
+}
+
+.busines-decor {
+  display: block;
+  position: absolute;
+  bottom: -149px;
+  right: 140px;
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
+}

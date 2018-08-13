@@ -18,8 +18,10 @@
         margin-bottom: 0!important;
         position: relative;
         text-align: left;
+        font-size: 14px;
+        font-weight: 300;
+        color: #37393A;
         line-height: 22px;
-        @include text(16px);
         &.xs {
             font-size: 11px!important;
             color: #666!important;
@@ -35,13 +37,13 @@
             font-size: 11px;
         }
 
-        a {
+        span {
             font: inherit;
             text-decoration: underline;
             color: inherit;
             transition: color .3s ease;
             &:hover {
-                color: #fff;
+                color: #f19123;
             }
         }       
     }
@@ -59,9 +61,9 @@
         width: 20px;
         height: 20px;
         border-radius: 5px;
-        background-color: #f9fbfd;
-        border: 1px solid #ffffff;
-        box-shadow: inset 0 0 2px 1px rgba(240,240,240,0.7);
+        background-color: #eff0f4;
+        //border: 1px solid #ffffff;
+       // box-shadow: inset 0 0 2px 1px rgba(240,240,240,0.7);
         position: absolute;
         top: 0;
         left: -30px;
@@ -76,7 +78,7 @@
     input[type=checkbox]:checked + label:before,
     input[type=radio]:checked + label:before {
         content: "\2714";
-        font-size: 18px;
+        font-size: 16px;
         font-weight: normal;
         color: #f19123;
         text-align: center;
