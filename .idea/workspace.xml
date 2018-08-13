@@ -2,67 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ddc5a89-cf38-482f-b664-232716d8ba28" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/ico/1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/ico/2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/ico/3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/ico/4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/ico/5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/ico/6.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/ico/7.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/ico/8.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/ico/i-inst-hover.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/ico/i-inst.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/ico/i-mail.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/ico/i-phone-w.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/ico/i-phone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/ico/i-star.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/ico/i-vk-hover.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/ico/i-vk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/ico/menu-close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/ico/menu-open.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/modal-close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/js/venders/jquery.parallax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/_about.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/_benefit.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/_busines.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/_client.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/_extra.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/_format.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/_fs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/_lands.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/_scool.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/_service.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/_social.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/_trainer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/Thumbs.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/a3.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/a3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/bg-3.jpg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/bg-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/bg-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/bg-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/bg-9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/d1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/d1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/d3.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/d3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/s1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/s1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/s2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/s2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/s4.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/s4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/s5.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/s5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/item/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/item/post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/item/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/item/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/js-main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/js-main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_bg.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_bg.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_ch-wrapper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_ch-wrapper.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_input.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_modal.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_scaffolding.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_scaffolding.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/mix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/mix.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -119,11 +59,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_button.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_button.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scss/_button.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/item/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -219,6 +177,7 @@
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/scss/_footer.scss" />
         <option value="$PROJECT_DIR$/app/scss/_button.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -320,8 +279,14 @@
               <item name="Shtark" type="b2602c69:ProjectViewProjectNode" />
               <item name="Shtark" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="venders" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shtark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shtark" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="item" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Shtark" type="b2602c69:ProjectViewProjectNode" />
@@ -400,7 +365,7 @@
       <option name="presentableId" value="Default" />
       <updated>1533842725459</updated>
       <workItem from="1533842726722" duration="50439000" />
-      <workItem from="1534059437370" duration="39819000" />
+      <workItem from="1534059437370" duration="40280000" />
     </task>
     <task id="LOCAL-00001" summary="begin">
       <created>1533843539319</created>
@@ -409,25 +374,32 @@
       <option name="project" value="LOCAL" />
       <updated>1533843539319</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1534118652944</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1534118652944</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90258000" />
+    <option name="totallyTimeSpent" value="90719000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="625" y="156" width="1184" height="918" extended-state="0" />
+    <frame x="449" y="84" width="1184" height="918" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26556543" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26556543" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32951653" />
-      <window_info id="Gulp" order="2" sideWeight="0.13148789" side_tool="true" visible="true" weight="0.24469964" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8685121" visible="true" weight="0.24469964" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32909784" />
+      <window_info id="Gulp" order="2" sideWeight="0.13257575" side_tool="true" visible="true" weight="0.24469964" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.86742425" visible="true" weight="0.24469964" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -450,16 +422,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="begin" />
-    <option name="LAST_COMMIT_MESSAGE" value="begin" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/scss/_about.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/mix.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -636,13 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/item/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/_fs.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
@@ -785,6 +744,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/item/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>

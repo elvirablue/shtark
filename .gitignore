@@ -1,5 +1,3 @@
 node_modules/
 maket/
-package.json
-
-gulpfile.js
+.idea/
